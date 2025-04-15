@@ -1,0 +1,37 @@
+[
+    {
+        "name": "App One",
+        "version": "1.0",
+        "developer": "Dev A",
+        "category": "Productivity",
+        "releaseDate": "2024-05-10",
+        "description": "A simple and effective productivity tool.",
+        "url": "https://www.google.co.in"
+    },
+    {
+        "name": "App Two",
+        "version": "2.3",
+        "developer": "Dev B",
+        "category": "Utility",
+        "releaseDate": "2023-11-22",
+        "description": "Helps you manage daily tasks efficiently.",
+        "url": "https://example.com/app2"
+    },
+    {
+        "name": "App Three",
+        "version": "4.1",
+        "developer": "Dev C",
+        "category": "Entertainment",
+        "releaseDate": "2022-08-15",
+        "description": "Stream your favorite shows and movies.",
+        "url": "https://example.com/app3"
+    },
+    {
+        "name": "App Four",
+        "version": "5.0",
+        "developer": "Dev D",
+        "category": "Education",
+        "releaseDate": "2025-01-05",
+        "description": "Learn new skills through interactive lessons.",
+        "url": "https://example.com/app4"
+    }]
