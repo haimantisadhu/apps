@@ -1,53 +1,51 @@
 body {
-    font-family: sans-serif;
-    background: #f4f4f4;
-    padding: 30px;
-    margin: 0;
-  }
+  font-family: sans-serif;
+  background: #f4f4f4;
+  padding: 30px;
+  margin: 0;
+}
 
-  h1 {
-    text-align: center;
-    margin-bottom: 40px;
-  }
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
 
-  .grid {
-    display: grid;
-    /* grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); */
-    gap: 20px;
-  }
+#app-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
 
-  .card {
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    transition: transform 0.2s ease;
-  }
+.card {
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
 
-  .card:hover {
-    transform: translateY(-5px);
-  }
+.card:hover {
+  transform: translateY(-5px);
+}
 
-  .card a {
-    font-size: 20px;
-    font-weight: bold;
-    color: #007BFF;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 10px;
-  }
+.card a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
 
-  .card a:hover {
-    text-decoration: underline;
-  }
+.card a:hover {
+  text-decoration: underline;
+}
 
-  .card p {
-    margin: 6px 0;
-    font-size: 14px;
-    color: #444;
-  }
+.card p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #444;
+}
 
-  .card .desc {
-    font-style: italic;
-    color: #666;
-  }
+.desc {
+  font-style: italic;
+  color: #666;
+}
