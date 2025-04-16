@@ -1,4 +1,5 @@
-[
+{
+    "applications":[
     {
         "name": "App One",
         "version": "1.0",
@@ -34,4 +35,4 @@
         "releaseDate": "2025-01-05",
         "description": "Learn new skills through interactive lessons.",
         "url": "https://example.com/app4"
-    }]
+    }]}
